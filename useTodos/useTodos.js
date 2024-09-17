@@ -1,7 +1,7 @@
 //Custom Hook para separar logica del TodoApp.jsx
 
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../08-useReducer/todoReducer";
+import { todoReducer } from "./todoReducer";
 
 //Creamos el initialState en blanco
 const initialState = [];
